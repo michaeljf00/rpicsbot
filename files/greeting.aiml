@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern># HI #</pattern>
+    <template>What is your name?</template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>WHAT IS YOUR NAME</that>
+
+    <template>
+        <think>
+          <set name="userName">
+            <star/>
+          </set>
+        </think>
+        Hello, <star/>! Very nice to meet you.
+    </template>
+  </category>
+</aiml>

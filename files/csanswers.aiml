@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- 1. Find the plan of study for your class year -->
+  <category>
+    <pattern># PLAN OF STUDY #</pattern>
+    <template><srai>WHAT YEAR ARE YOU</srai></template>
+  </category>
+
+  <category>
+    <pattern># STUDY PLAN #</pattern>
+    <template><srai>WHAT YEAR ARE YOU</srai></template>
+  </category>
+
+  <category>
+    <pattern># CURRICULUM #</pattern>
+    <template><srai>WHAT YEAR ARE YOU</srai></template>
+  </category>
+
+  <category>
+    <pattern>WHAT YEAR ARE YOU</pattern>
+    <set name="WhatYearAreYou">WHAT YEAR ARE YOU</set>
+    <template>
+      <random>
+        <li>What year are you?</li>
+        <li>What is your year of graduation?</li>
+        <li>What year do you plan on going to the workforce?</li>
+        <li>When are you finally free (graduation year)?</li>
+      </random>
+    </template>
+  </category>
+
+  <!-- Category to ask follow up question -->
+
+  <!-- Freshman Follow up -->
+  <category>
+    <pattern>FRESHMAN</pattern>
+    <template>
+      <condition name="WhatYearAreYou">
+        <li value="WHAT YEAR ARE YOU">
+          <srai>FRESHMEN TEMPLATE</srai>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FRESHMEN</pattern>
+    <template>
+      <condition name="WhatYearAreYou">
+        <li value="WHAT YEAR ARE YOU">
+          <srai>FRESHMEN TEMPLATE</srai>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>2026</pattern>
+    <template>
+      <condition name="WhatYearAreYou">
+        <li value="WHAT YEAR ARE YOU">
+          <srai>FRESHMEN TEMPLATE</srai>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+ <!-- Sophmores Follow Up -->
+  <category>
+    <pattern>SOPHOMORE</pattern>
+    <template>
+      <condition name="WhatYearAreYou">
+        <li value="WHAT YEAR ARE YOU">
+          <srai>SOPHMORE TEMPLATE</srai>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SOPHMORES</pattern>
+    <template>
+      <condition name="WhatYearAreYou">
+        <li value="WHAT YEAR ARE YOU">
+          <srai>SOPHMORE TEMPLATE</srai>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>2025</pattern>
+    <template>
+      <condition name="WhatYearAreYou">
+        <li value="WHAT YEAR ARE YOU">
+          <srai>SOPHOMORE TEMPLATE</srai>
+        </li>
+      </condition>
+    </template> 
+  </category>
+
+  <!-- Juniors Follow Up-->
+  <category>
+    <pattern>JUNIOR</pattern>
+    <template>
+      <condition name="WhatYearAreYou">
+        <li value="WHAT YEAR ARE YOU">
+          <srai>JUNIOR TEMPLATE</srai>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>JUNIORS</pattern>
+    <template>
+      <condition name="WhatYearAreYou">
+        <li value="WHAT YEAR ARE YOU">
+          <srai>JUNIOR TEMPLATE</srai>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>2024</pattern>
+    <template>
+      <condition name="WhatYearAreYou">
+        <li value="WHAT YEAR ARE YOU">
+          <srai>JUNIOR TEMPLATE</srai>
+        </li>
+      </condition>
+    </template>
+  </category>
+    
+  <!-- Seniors Follow Up-->
+  <category>
+    <pattern>SENIOR</pattern>
+    <template>
+      <condition name="WhatYearAreYou">
+        <li value="WHAT YEAR ARE YOU">
+          <srai>SENIOR TEMPLATE</srai>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SENIORS</pattern>
+    <template>
+      <condition name="WhatYearAreYou">
+        <li value="WHAT YEAR ARE YOU">
+          <srai>SENIOR TEMPLATE</srai>
+        </li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>2023</pattern>
+    <template>
+      <condition name="WhatYearAreYou">
+        <li value="WHAT YEAR ARE YOU">
+          <srai>SENIOR TEMPLATE</srai>
+        </li>
+      </condition>
+    </template>
+  </category>
+  
+  <!-- TEMPLATES -->
+  <category>
+    <pattern>FRESHMEN TEMPLATE</pattern>
+    <template>Here is the curriculum for your year:
+      <a href="https://rpi.app.box.com/v/csci-2026-template" target="_blank">Link</a>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SOPHOMORE TEMPLATE</pattern>
+    <template>Here is the curriculum for your year:
+      <a href="https://rpi.app.box.com/v/csci-2025-template" target="_blank">Link</a>
+    </template>
+  </category>
+
+  <category>
+    <pattern>JUNIOR TEMPLATE</pattern>
+    <template>Here is the curriculum for your year:
+      <a href="https://rpi.app.box.com/v/csci-2024-template" target="_blank">Link</a>
+    </template>
+  </category>
+
+  <category>
+    <pattern>SENIOR TEMPLATE</pattern>
+    <template>Here is the curriculum for your year:
+      <a href="https://rpi.app.box.com/v/csci-2023-template" target="_blank">Link</a>
+    </template>
+  </category>
+</aiml>
