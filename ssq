@@ -1,0 +1,204 @@
+[1mdiff --git a/files/csanswers b/files/csanswers[m
+[1mdeleted file mode 100644[m
+[1mindex f09dd0f..0000000[m
+[1m--- a/files/csanswers[m
+[1m+++ /dev/null[m
+[36m@@ -1,198 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<aiml version="2.0">[m
+[31m-  <!-- 1. Find the plan of study for your class year -->[m
+[31m-  <category>[m
+[31m-    <pattern># PLAN OF STUDY #</pattern>[m
+[31m-    <template><srai>WHAT YEAR ARE YOU</srai></template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <category>[m
+[31m-    <pattern># STUDY PLAN #</pattern>[m
+[31m-    <template><srai>WHAT YEAR ARE YOU</srai></template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <category>[m
+[31m-    <pattern># CURRICULUM #</pattern>[m
+[31m-    <template><srai>WHAT YEAR ARE YOU</srai></template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <category>[m
+[31m-    <pattern>WHAT YEAR ARE YOU</pattern>[m
+[31m-    <set name="WhatYearAreYou">WHAT YEAR ARE YOU</set>[m
+[31m-    <template>[m
+[31m-      <random>[m
+[31m-        <li>What year are you?</li>[m
+[31m-        <li>What is your year of graduation?</li>[m
+[31m-        <li>What year do you plan on going to the workforce?</li>[m
+[31m-        <li>When are you finally free (graduation year)?</li>[m
+[31m-      </random>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <!-- Category to ask follow up question -->[m
+[31m-[m
+[31m-  <!-- Freshman Follow up -->[m
+[31m-  <category>[m
+[31m-    <pattern>FRESHMAN</pattern>[m
+[31m-    <template>[m
+[31m-      <condition name="WhatYearAreYou">[m
+[31m-        <li value="WHAT YEAR ARE YOU">[m
+[31m-          <srai>FRESHMEN TEMPLATE</srai>[m
+[31m-        </li>[m
+[31m-      </condition>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <category>[m
+[31m-    <pattern>FRESHMEN</pattern>[m
+[31m-    <template>[m
+[31m-      <condition name="WhatYearAreYou">[m
+[31m-        <li value="WHAT YEAR ARE YOU">[m
+[31m-          <srai>FRESHMEN TEMPLATE</srai>[m
+[31m-        </li>[m
+[31m-      </condition>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <category>[m
+[31m-    <pattern>2026</pattern>[m
+[31m-    <template>[m
+[31m-      <condition name="WhatYearAreYou">[m
+[31m-        <li value="WHAT YEAR ARE YOU">[m
+[31m-          <srai>FRESHMEN TEMPLATE</srai>[m
+[31m-        </li>[m
+[31m-      </condition>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-[m
+[31m- <!-- Sophmores Follow Up -->[m
+[31m-  <category>[m
+[31m-    <pattern>SOPHOMORE</pattern>[m
+[31m-    <template>[m
+[31m-      <condition name="WhatYearAreYou">[m
+[31m-        <li value="WHAT YEAR ARE YOU">[m
+[31m-          <srai>SOPHMORE TEMPLATE</srai>[m
+[31m-        </li>[m
+[31m-      </condition>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <category>[m
+[31m-    <pattern>SOPHMORES</pattern>[m
+[31m-    <template>[m
+[31m-      <condition name="WhatYearAreYou">[m
+[31m-        <li value="WHAT YEAR ARE YOU">[m
+[31m-          <srai>SOPHMORE TEMPLATE</srai>[m
+[31m-        </li>[m
+[31m-      </condition>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <category>[m
+[31m-    <pattern>2025</pattern>[m
+[31m-    <template>[m
+[31m-      <condition name="WhatYearAreYou">[m
+[31m-        <li value="WHAT YEAR ARE YOU">[m
+[31m-          <srai>SOPHOMORE TEMPLATE</srai>[m
+[31m-        </li>[m
+[31m-      </condition>[m
+[31m-    </template> [m
+[31m-  </category>[m
+[31m-[m
+[31m-  <!-- Juniors Follow Up-->[m
+[31m-  <category>[m
+[31m-    <pattern>JUNIOR</pattern>[m
+[31m-    <template>[m
+[31m-      <condition name="WhatYearAreYou">[m
+[31m-        <li value="WHAT YEAR ARE YOU">[m
+[31m-          <srai>JUNIOR TEMPLATE</srai>[m
+[31m-        </li>[m
+[31m-      </condition>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <category>[m
+[31m-    <pattern>JUNIORS</pattern>[m
+[31m-    <template>[m
+[31m-      <condition name="WhatYearAreYou">[m
+[31m-        <li value="WHAT YEAR ARE YOU">[m
+[31m-          <srai>JUNIOR TEMPLATE</srai>[m
+[31m-        </li>[m
+[31m-      </condition>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <category>[m
+[31m-    <pattern>2024</pattern>[m
+[31m-    <template>[m
+[31m-      <condition name="WhatYearAreYou">[m
+[31m-        <li value="WHAT YEAR ARE YOU">[m
+[31m-          <srai>JUNIOR TEMPLATE</srai>[m
+[31m-        </li>[m
+[31m-      </condition>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-    [m
+[31m-  <!-- Seniors Follow Up-->[m
+[31m-  <category>[m
+[31m-    <pattern>SENIOR</pattern>[m
+[31m-    <template>[m
+[31m-      <condition name="WhatYearAreYou">[m
+[31m-        <li value="WHAT YEAR ARE YOU">[m
+[31m-          <srai>SENIOR TEMPLATE</srai>[m
+[31m-        </li>[m
+[31m-      </condition>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <category>[m
+[31m-    <pattern>SENIORS</pattern>[m
+[31m-    <template>[m
+[31m-      <condition name="WhatYearAreYou">[m
+[31m-        <li value="WHAT YEAR ARE YOU">[m
+[31m-          <srai>SENIOR TEMPLATE</srai>[m
+[31m-        </li>[m
+[31m-      </condition>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <category>[m
+[31m-    <pattern>2023</pattern>[m
+[31m-    <template>[m
+[31m-      <condition name="WhatYearAreYou">[m
+[31m-        <li value="WHAT YEAR ARE YOU">[m
+[31m-          <srai>SENIOR TEMPLATE</srai>[m
+[31m-        </li>[m
+[31m-      </condition>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-  [m
+[31m-  <!-- TEMPLATES -->[m
+[31m-  <category>[m
+[31m-    <pattern>FRESHMEN TEMPLATE</pattern>[m
+[31m-    <template>Here is the curriculum for your year:[m
+[31m-      <a href="https://rpi.app.box.com/v/csci-2026-template" target="_blank">Link</a>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <category>[m
+[31m-    <pattern>SOPHOMORE TEMPLATE</pattern>[m
+[31m-    <template>Here is the curriculum for your year:[m
+[31m-      <a href="https://rpi.app.box.com/v/csci-2025-template" target="_blank">Link</a>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <category>[m
+[31m-    <pattern>JUNIOR TEMPLATE</pattern>[m
+[31m-    <template>Here is the curriculum for your year:[m
+[31m-      <a href="https://rpi.app.box.com/v/csci-2024-template" target="_blank">Link</a>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-[m
+[31m-  <category>[m
+[31m-    <pattern>SENIOR TEMPLATE</pattern>[m
+[31m-    <template>Here is the curriculum for your year:[m
+[31m-      <a href="https://rpi.app.box.com/v/csci-2023-template" target="_blank">Link</a>[m
+[31m-    </template>[m
+[31m-  </category>[m
+[31m-</aiml>[m

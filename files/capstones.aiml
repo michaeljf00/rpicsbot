@@ -14,26 +14,51 @@
 
   <category>
     <pattern># CAPSTONES #</pattern>
-    <template><a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></template>
+    <template>
+      <condition name="userName">
+        <li value="unknown"><a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></li>
+        <li>Hi <get name="userName" />! Here you go: <a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></li>
+      </condition>
+    </template>
   </category>
 
   <category>
     <pattern># CONCENTRATION #</pattern>
-    <template><a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></template>
+    <template>
+      <condition name="userName">
+        <li value="unknown"><a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></li>
+        <li>Hi <get name="userName" />! Here you go: <a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></li>
+      </condition>
+    </template>
   </category>
 
   <category>
     <pattern># CONCENTRATIONS #</pattern>
-    <template><a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></template>
+    <template>
+      <condition name="userName">
+        <li value="unknown"><a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></li>
+        <li>Hi <get name="userName" />! Here you go: <a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></li>
+      </condition>
+    </template>
   </category>
   
   <category>
     <pattern># SPECIALTY #</pattern>
-    <template><a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></template>
+    <template>
+      <condition name="userName">
+        <li value="unknown"><a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></li>
+        <li>Hi <get name="userName" />! Here you go: <a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></li>
+      </condition>
+    </template>
   </category>
 
   <category>
     <pattern># SPECIALTIES #</pattern>
-    <template><a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></template>
+    <template>
+      <condition name="userName">
+        <li value="unknown"><a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></li>
+        <li>Hi <get name="userName" />! Here you go: <a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></li>
+      </condition>
+    </template>
   </category>
 </aiml>
