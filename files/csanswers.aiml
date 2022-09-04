@@ -170,41 +170,61 @@
   <!-- TEMPLATES -->
   <category>
     <pattern>FRESHMEN TEMPLATE</pattern>
+<<<<<<< HEAD
     <template>
       <condition name="userName">
         <li value="unknown"><a href="https://rpi.app.box.com/v/csci-2026-template" target="_blank">Link</a></li>
         <li>Hi <get name="userName" />! Here you go: <a href="https://rpi.app.box.com/v/csci-2026-template" target="_blank">Curriculum Link</a></li>
       </condition>
+=======
+    <template>Here is the curriculum for your year:
+      <a href="https://rpi.app.box.com/v/csci-2026-template" target="_blank">Link</a>
+>>>>>>> 5b6fe83c640d3e002636385ec2e63d859c81d2b5
     </template>
   </category>
 
   <category>
     <pattern>SOPHOMORE TEMPLATE</pattern>
+<<<<<<< HEAD
     <template>
       <condition name="userName">
         <li value="unknown"><a href="https://rpi.app.box.com/s/0l20yh8mr1gijacn11xvhwqi5put94pi" target="_blank">Link</a></li>
         <li>Hi <get name="userName" />! Here you go: <a href="https://rpi.app.box.com/s/0l20yh8mr1gijacn11xvhwqi5put94pi" target="_blank">Curriculum Link</a></li>
       </condition>
+=======
+    <template>Here is the curriculum for your year:
+      <a href="https://rpi.app.box.com/v/csci-2025-template" target="_blank">Link</a>
+>>>>>>> 5b6fe83c640d3e002636385ec2e63d859c81d2b5
     </template>
   </category>
 
   <category>
     <pattern>JUNIOR TEMPLATE</pattern>
+<<<<<<< HEAD
     <template>
       <condition name="userName">
         <li value="unknown"><a href="https://rpi.app.box.com/s/ac3pnays97zzrrivlcj5c4o6iddkrr5c" target="_blank">Link</a></li>
         <li>Hi <get name="userName" />! Here you go: <a href="https://rpi.app.box.com/s/ac3pnays97zzrrivlcj5c4o6iddkrr5c" target="_blank">Curriculum Link</a></li>
       </condition>
+=======
+    <template>Here is the curriculum for your year:
+      <a href="https://rpi.app.box.com/v/csci-2024-template" target="_blank">Link</a>
+>>>>>>> 5b6fe83c640d3e002636385ec2e63d859c81d2b5
     </template>
   </category>
 
   <category>
     <pattern>SENIOR TEMPLATE</pattern>
+<<<<<<< HEAD
     <template>
       <condition name="userName">
         <li value="unknown"><a href="https://rpi.app.box.com/v/csci-2023-template" target="_blank">Link</a></li>
         <li>Hi <get name="userName" />! Here you go: <a href="https://rpi.app.box.com/v/csci-2023-template" target="_blank">Curriculum Link</a></li>
       </condition>
+=======
+    <template>Here is the curriculum for your year:
+      <a href="https://rpi.app.box.com/v/csci-2023-template" target="_blank">Link</a>
+>>>>>>> 5b6fe83c640d3e002636385ec2e63d859c81d2b5
     </template>
   </category>
 </aiml>
