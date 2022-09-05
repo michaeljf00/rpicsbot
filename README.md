@@ -1,3 +1,5 @@
+Contributors: Michael Fababeir, Omar Cobas
+
 Welcome to our RPI Computer Science Bot!
 
 This bot specializes on helping you navigate through your RPI career as a computer science major.
