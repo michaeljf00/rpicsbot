@@ -7,3 +7,5 @@ giving options for your capstone.
 Features:
 - Find a plan of study for your class year
 - Find a list of courses under each CS concentration
+
+Bot Name in Pandora's Sandbox: rpicsbot
