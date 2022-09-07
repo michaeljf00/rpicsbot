@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
   <!-- 3. Ask for required CS courses -->
-  <!-- requirement, requirements, required courses, required CS courses, required Computer Science courses -->
+  <!-- requirement, requirements, required courses, required CS courses, required computer science, required computer science courses -->
   <category>
     <pattern># REQUIREMENT #</pattern>
     <template>
