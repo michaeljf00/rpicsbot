@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- 3. Ask for required CS courses -->
+  <!-- requirement, requirements, required courses, required CS courses, required Computer Science courses -->
+  <category>
+    <pattern># REQUIREMENT #</pattern>
+    <template>
+      Computer Science students at RPI are required to take the following courses
+      <ul>
+        <li>Computer Science 1</li>
+        <li>Data Structures</li>
+        <li>Foundations of Computer Science</li>
+        <li>Computer Organization</li>
+        <li>Introduction to Algorithms</li>
+        <li>Principles of Software</li>
+        <li>Operating Systems</li>
+        <li>Programming Languages</li>
+      </ul>
+    </template>
+  </category>
+
+  <category>
+    <pattern># REQUIREMENTS #</pattern>
+    <template>
+      Computer Science students at RPI are required to take the following courses
+      <ul>
+        <li>Computer Science 1</li>
+        <li>Data Structures</li>
+        <li>Foundations of Computer Science</li>
+        <li>Computer Organization</li>
+        <li>Introduction to Algorithms</li>
+        <li>Principles of Software</li>
+        <li>Operating Systems</li>
+        <li>Programming Languages</li>
+      </ul>
+    </template>
+  </category>
+  
+  <category>
+    <pattern># REQUIRED COURSES #</pattern>
+    <template>
+      Computer Science students at RPI are required to take the following courses
+      <ul>
+        <li>Computer Science 1</li>
+        <li>Data Structures</li>
+        <li>Foundations of Computer Science</li>
+        <li>Computer Organization</li>
+        <li>Introduction to Algorithms</li>
+        <li>Principles of Software</li>
+        <li>Operating Systems</li>
+        <li>Programming Languages</li>
+      </ul>
+    </template>
+  </category>
+
+  <category>
+    <pattern># REQUIRED CS COURSES #</pattern>
+    <template>
+      Computer Science students at RPI are required to take the following courses
+      <ul>
+        <li>Computer Science 1</li>
+        <li>Data Structures</li>
+        <li>Foundations of Computer Science</li>
+        <li>Computer Organization</li>
+        <li>Introduction to Algorithms</li>
+        <li>Principles of Software</li>
+        <li>Operating Systems</li>
+        <li>Programming Languages</li>
+      </ul>
+    </template>
+  </category>
+
+  <category>
+    <pattern># REQUIRED COMPUTER SCIENCE COURSES #</pattern>
+    <template>
+      Computer Science students at RPI are required to take the following courses
+      <ul>
+        <li>Computer Science 1</li>
+        <li>Data Structures</li>
+        <li>Foundations of Computer Science</li>
+        <li>Computer Organization</li>
+        <li>Introduction to Algorithms</li>
+        <li>Principles of Software</li>
+        <li>Operating Systems</li>
+        <li>Programming Languages</li>
+      </ul>
+    </template>
+  </category>
+
+  <category>
+    <pattern># REQUIRED COMPUTER SCIENCE #</pattern>
+    <template>
+      Computer Science students at RPI are required to take the following courses
+      <ul>
+        <li>Computer Science 1</li>
+        <li>Data Structures</li>
+        <li>Foundations of Computer Science</li>
+        <li>Computer Organization</li>
+        <li>Introduction to Algorithms</li>
+        <li>Principles of Software</li>
+        <li>Operating Systems</li>
+        <li>Programming Languages</li>
+      </ul>
+    </template>
+  </category>
+</aiml>

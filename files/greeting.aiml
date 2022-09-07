@@ -6,6 +6,31 @@
   </category>
 
   <category>
+    <pattern># HELLO #</pattern>
+    <template>What is your name?</template>
+  </category>
+
+  <category>
+    <pattern># GOOD MORNING #</pattern>
+    <template>What is your name?</template>
+  </category>
+
+  <category>
+    <pattern># GOOD EVENING #</pattern>
+    <template>What is your name?</template>
+  </category>
+
+  <category>
+    <pattern># GOOD DAY #</pattern>
+    <template>What is your name?</template>
+  </category>
+
+  <category>
+    <pattern># WHAT IS UP #</pattern>
+    <template>What is your name?</template>
+  </category>
+
+  <category>
     <pattern>*</pattern>
     <that>WHAT IS YOUR NAME</that>
 

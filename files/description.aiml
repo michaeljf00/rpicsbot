@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- 5. Ask for a description about the CS department -->
+<!-- description, summary, overview -->
+  <category>
+    <pattern># DESCRIPTION #</pattern>
+    <template>
+      Computer science is the study of the design, analysis, communication,
+      implementation, and application of computational processes.
+      At Rensselaer, an education in computer science prepares students to
+      solve applied real-world problems and conduct research in computer science.
+      The program provides students with a solid grounding in both theory and practice.
+      <ul>
+        <li>Students who successfully complete this program will be able to demonstrate:</li>
+        <li>An ability to develop a computational formulation of a problem, one or more data structures and algorithms to solve the problem, a program to implement a solution, and strategies for testing and verifying that the program is correct.
+Knowledge of the mathematical and theoretical underpinnings of computer science.</li>
+        <li>An ability to adapt a solution to different computing platforms, paradigms, and/or programming languages.</li>
+        <li>An advanced depth of knowledge in one or more of the following areas: computer systems, computer theory, applications, software engineering, data analysis, and large-scale software architecture</li>
+      </ul>
+    </template>
+  </category>
+
+  <category>
+    <pattern># SUMMARY #</pattern>
+    <template>
+      Computer science is the study of the design, analysis, communication,
+      implementation, and application of computational processes.
+      At Rensselaer, an education in computer science prepares students to
+      solve applied real-world problems and conduct research in computer science.
+      The program provides students with a solid grounding in both theory and practice.
+      <ul>
+        <li>Students who successfully complete this program will be able to demonstrate:</li>
+        <li>An ability to develop a computational formulation of a problem, one or more data structures and algorithms to solve the problem, a program to implement a solution, and strategies for testing and verifying that the program is correct.
+Knowledge of the mathematical and theoretical underpinnings of computer science.</li>
+        <li>An ability to adapt a solution to different computing platforms, paradigms, and/or programming languages.</li>
+        <li>An advanced depth of knowledge in one or more of the following areas: computer systems, computer theory, applications, software engineering, data analysis, and large-scale software architecture</li>
+      </ul>
+    </template>
+  </category>
+
+  <category>
+    <pattern># OVERVIEW #</pattern>
+    <template>
+      Computer science is the study of the design, analysis, communication,
+      implementation, and application of computational processes.
+      At Rensselaer, an education in computer science prepares students to
+      solve applied real-world problems and conduct research in computer science.
+      The program provides students with a solid grounding in both theory and practice.
+      <ul>
+        <li>Students who successfully complete this program will be able to demonstrate:</li>
+        <li>An ability to develop a computational formulation of a problem, one or more data structures and algorithms to solve the problem, a program to implement a solution, and strategies for testing and verifying that the program is correct.
+Knowledge of the mathematical and theoretical underpinnings of computer science.</li>
+        <li>An ability to adapt a solution to different computing platforms, paradigms, and/or programming languages.</li>
+        <li>An advanced depth of knowledge in one or more of the following areas: computer systems, computer theory, applications, software engineering, data analysis, and large-scale software architecture</li>
+      </ul>
+    </template>
+  </category>
+</aiml>

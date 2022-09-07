@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- 4. Ask for who is the department head of CS -->
+<!-- head -->
+  <category>
+    <pattern># HEAD #</pattern>
+    <template>
+      The head of the Computer Science department at RPI is Mohammed J. Zaki.
+    </template>
+  </category>
+</aiml>
