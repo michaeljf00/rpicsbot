@@ -240,7 +240,7 @@
 
   <category>
     <pattern>*</pattern>
-    <that>WHAT IS YOUR NAME</that>
+    <that>LT LI GT KEYWORDS DESCRIPTION, SUMMARY, OVERVIEW LT SLASH LI GT LT SLASH LI GT LT SLASH UL GT</that>
 
     <template>
         <think>
