@@ -2,32 +2,206 @@
 <aiml version="2.0">
   <category>
     <pattern># HI #</pattern>
-    <template>What is your name?</template>
+    <template>What is your name?<br></br><br></br>
+      Welcome to our RPI Computer Science Bot!<br></br><br></br>
+
+      This bot specializes on helping you navigate through your RPI career as a computer science major.
+      From freshman to senior, it gives an outline of the classes to take for your current year as well as
+      giving options for your capstone.<br></br>
+      <ul>
+      <li>Features:</li>
+        <li>Greet the bot and it will ask for your name [NEW].
+            <li>Keywords: Hi, hello, good morning, good day, good evening, what's up</li>
+        </li>
+        <li>Find a plan of study for your class year.
+            <li>Keywords: plan of study, study plan, curriculum</li>
+        </li>
+        <li>Find a list of courses under each CS concentration.
+            <li>Keywords: capstone, capstones, concentration, concentrations, specialty, specialties</li>
+        </li>
+        <li>Find a list of required CS courses [NEW].
+            <li>Keywords: requirement, requirements, required courses, required CS courses, required computer science, required computer science courses</li>
+        </li>
+        <li>
+            Find the department head of Computer Science [NEW].
+            <li>Keywords: head</li>
+        </li>
+        <li>
+            Find a description of the CS department at RPI [NEW].
+            <li>Keywords: description, summary, overview</li>
+        </li>
+      </ul>
+    </template>
   </category>
 
   <category>
     <pattern># HELLO #</pattern>
-    <template>What is your name?</template>
+    <template>What is your name?<br></br><br></br>
+      Welcome to our RPI Computer Science Bot!<br></br><br></br>
+
+      This bot specializes on helping you navigate through your RPI career as a computer science major.
+      From freshman to senior, it gives an outline of the classes to take for your current year as well as
+      giving options for your capstone.<br></br>
+      <ul>
+      <li>Features:</li>
+        <li>Greet the bot and it will ask for your name [NEW].
+            <li>Keywords: Hi, hello, good morning, good day, good evening, what's up</li>
+        </li>
+        <li>Find a plan of study for your class year.
+            <li>Keywords: plan of study, study plan, curriculum</li>
+        </li>
+        <li>Find a list of courses under each CS concentration.
+            <li>Keywords: capstone, capstones, concentration, concentrations, specialty, specialties</li>
+        </li>
+        <li>Find a list of required CS courses [NEW].
+            <li>Keywords: requirement, requirements, required courses, required CS courses, required computer science, required computer science courses</li>
+        </li>
+        <li>
+            Find the department head of Computer Science [NEW].
+            <li>Keywords: head</li>
+        </li>
+        <li>
+            Find a description of the CS department at RPI [NEW].
+            <li>Keywords: description, summary, overview</li>
+        </li>
+      </ul>
+    </template>
   </category>
 
   <category>
     <pattern># GOOD MORNING #</pattern>
-    <template>What is your name?</template>
+    <template>What is your name?<br></br><br></br>
+      Welcome to our RPI Computer Science Bot!<br></br><br></br>
+
+      This bot specializes on helping you navigate through your RPI career as a computer science major.
+      From freshman to senior, it gives an outline of the classes to take for your current year as well as
+      giving options for your capstone.<br></br>
+      <ul>
+      <li>Features:</li>
+        <li>Greet the bot and it will ask for your name [NEW].
+            <li>Keywords: Hi, hello, good morning, good day, good evening, what's up</li>
+        </li>
+        <li>Find a plan of study for your class year.
+            <li>Keywords: plan of study, study plan, curriculum</li>
+        </li>
+        <li>Find a list of courses under each CS concentration.
+            <li>Keywords: capstone, capstones, concentration, concentrations, specialty, specialties</li>
+        </li>
+        <li>Find a list of required CS courses [NEW].
+            <li>Keywords: requirement, requirements, required courses, required CS courses, required computer science, required computer science courses</li>
+        </li>
+        <li>
+            Find the department head of Computer Science [NEW].
+            <li>Keywords: head</li>
+        </li>
+        <li>
+            Find a description of the CS department at RPI [NEW].
+            <li>Keywords: description, summary, overview</li>
+        </li>
+      </ul>
+    </template>
   </category>
 
   <category>
     <pattern># GOOD EVENING #</pattern>
-    <template>What is your name?</template>
+    <template>What is your name?<br></br><br></br>
+      Welcome to our RPI Computer Science Bot!<br></br><br></br>
+
+      This bot specializes on helping you navigate through your RPI career as a computer science major.
+      From freshman to senior, it gives an outline of the classes to take for your current year as well as
+      giving options for your capstone.<br></br>
+      <ul>
+      <li>Features:</li>
+        <li>Greet the bot and it will ask for your name [NEW].
+            <li>Keywords: Hi, hello, good morning, good day, good evening, what's up</li>
+        </li>
+        <li>Find a plan of study for your class year.
+            <li>Keywords: plan of study, study plan, curriculum</li>
+        </li>
+        <li>Find a list of courses under each CS concentration.
+            <li>Keywords: capstone, capstones, concentration, concentrations, specialty, specialties</li>
+        </li>
+        <li>Find a list of required CS courses [NEW].
+            <li>Keywords: requirement, requirements, required courses, required CS courses, required computer science, required computer science courses</li>
+        </li>
+        <li>
+            Find the department head of Computer Science [NEW].
+            <li>Keywords: head</li>
+        </li>
+        <li>
+            Find a description of the CS department at RPI [NEW].
+            <li>Keywords: description, summary, overview</li>
+        </li>
+      </ul>
+    </template>
   </category>
 
   <category>
     <pattern># GOOD DAY #</pattern>
-    <template>What is your name?</template>
+    <template>What is your name?<br></br><br></br>
+      Welcome to our RPI Computer Science Bot!<br></br><br></br>
+
+      This bot specializes on helping you navigate through your RPI career as a computer science major.
+      From freshman to senior, it gives an outline of the classes to take for your current year as well as
+      giving options for your capstone.<br></br>
+      <ul>
+      <li>Features:</li>
+        <li>Greet the bot and it will ask for your name [NEW].
+            <li>Keywords: Hi, hello, good morning, good day, good evening, what's up</li>
+        </li>
+        <li>Find a plan of study for your class year.
+            <li>Keywords: plan of study, study plan, curriculum</li>
+        </li>
+        <li>Find a list of courses under each CS concentration.
+            <li>Keywords: capstone, capstones, concentration, concentrations, specialty, specialties</li>
+        </li>
+        <li>Find a list of required CS courses [NEW].
+            <li>Keywords: requirement, requirements, required courses, required CS courses, required computer science, required computer science courses</li>
+        </li>
+        <li>
+            Find the department head of Computer Science [NEW].
+            <li>Keywords: head</li>
+        </li>
+        <li>
+            Find a description of the CS department at RPI [NEW].
+            <li>Keywords: description, summary, overview</li>
+        </li>
+      </ul>
+    </template>
   </category>
 
   <category>
     <pattern># WHAT IS UP #</pattern>
-    <template>What is your name?</template>
+    <template>What is your name?<br></br><br></br>
+      Welcome to our RPI Computer Science Bot!<br></br><br></br>
+
+      This bot specializes on helping you navigate through your RPI career as a computer science major.
+      From freshman to senior, it gives an outline of the classes to take for your current year as well as
+      giving options for your capstone.<br></br>
+      <ul>
+      <li>Features:</li>
+        <li>Greet the bot and it will ask for your name [NEW].
+            <li>Keywords: Hi, hello, good morning, good day, good evening, what's up</li>
+        </li>
+        <li>Find a plan of study for your class year.
+            <li>Keywords: plan of study, study plan, curriculum</li>
+        </li>
+        <li>Find a list of courses under each CS concentration.
+            <li>Keywords: capstone, capstones, concentration, concentrations, specialty, specialties</li>
+        </li>
+        <li>Find a list of required CS courses [NEW].
+            <li>Keywords: requirement, requirements, required courses, required CS courses, required computer science, required computer science courses</li>
+        </li>
+        <li>
+            Find the department head of Computer Science [NEW].
+            <li>Keywords: head</li>
+        </li>
+        <li>
+            Find a description of the CS department at RPI [NEW].
+            <li>Keywords: description, summary, overview</li>
+        </li>
+      </ul>
+    </template>
   </category>
 
   <category>
