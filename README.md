@@ -15,6 +15,10 @@ Features:
   - Keywords: plan of study, study plan, curriculum
 - Find a list of courses under each CS concentration
   - Keywords: capstone, capstones, concentration, concentrations, specialty, specialties
+  - Questions with responses (prefixed with Yes): [NEW, 9/10/22]
+    - Can I see the capstones?
+    - Can I see the concentrations?
+    - Can I see the specialties?
 - Find a list of required CS courses [NEW, 9/7/22]
   - Keywords: requirement, requirements, required courses, required CS courses, required computer science, required computer science courses -->
 - Find the department head of Computer Science [NEW, 9/7/22]
@@ -24,4 +28,4 @@ Features:
 - Alternate Descriptions
   - The user can get more info on required computer science courses but querying for info on the course name or its number within a list. The number is an alternate description for the referent object, the required computer science course. [NEW, 9/10/22]
 - Acknowledgements & Continuers
-  - Ground a question with an answer, forming an adjancency pair. If the user asks some form of a question, prefix the answer with "Yes, " if there's an available answer. Otherwise, prefix it with "No, ". Both prefixes are known as continuers and serve to continue a conversation. [NEW, 9/10/22]
+  - Ground a question with an answer, forming an adjancency pair. If the user asks some form of a question, prefix the answer with "Yes, " if there's an available answer. Both prefixes are known as continuers and serve to continue a conversation. [NEW, 9/10/22]

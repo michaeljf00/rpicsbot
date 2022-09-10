@@ -2,6 +2,36 @@
 <aiml version="2.0">
   <!-- 2. Get List of Concentrations for Computer Science -->
   <!-- capstone, capstones, concentration, concentrations, specialty, specialties -->
+   <category>
+    <pattern>$CAN I SEE THE CAPSTONES</pattern>
+    <template>
+      <condition name="userName">
+        <li value="unknown"><a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Yes, here you go. Capstone Link</a></li>
+        <li>Yes, hi <get name="userName" />! Here you go: <a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>$CAN I SEE THE CONCENTRATIONS</pattern>
+    <template>
+      <condition name="userName">
+        <li value="unknown"><a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Yes, here you go. Capstone Link</a></li>
+        <li>Yes, hi <get name="userName" />! Here you go: <a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></li>
+      </condition>
+    </template>
+  </category>
+
+  <category>
+    <pattern>$CAN I SEE THE SPECIALTIES</pattern>
+    <template>
+      <condition name="userName">
+        <li value="unknown"><a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Yes, here you go. Capstone Link</a></li>
+        <li>Yes, hi <get name="userName" />! Here you go: <a href="https://rpi.app.box.com/v/csci-capstone" target="_blank">Capstone Link</a></li>
+      </condition>
+    </template>
+  </category>
+
   <category>
     <pattern># CAPSTONE #</pattern>
     <template>
