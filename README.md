@@ -2,6 +2,8 @@ Contributors: Michael Fababeir, Omar Cobas
 
 Welcome to our RPI Computer Science Bot!
 
+Bot Name in Pandora's Sandbox: rpicsbot
+
 This bot specializes on helping you navigate through your RPI career as a computer science major.
 From freshman to senior, it gives an outline of the classes to take for your current year as well as
 giving options for your capstone.
@@ -23,5 +25,3 @@ Features:
   - The user can get more info on required computer science courses but querying for info on the course name or its number within a list. The number is an alternate description for the referent object, the required computer science course. [NEW, 9/10/22]
 - Acknowledgements & Continuers
   - Ground a question with an answer, forming an adjancency pair. If the user asks some form of a question, prefix the answer with "Yes, " if there's an available answer. Otherwise, prefix it with "No, ". Both prefixes are known as continuers and serve to continue a conversation. [NEW, 9/10/22]
-
-Bot Name in Pandora's Sandbox: rpicsbot
