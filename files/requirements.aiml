@@ -6,7 +6,7 @@
     <pattern># REQUIREMENT #</pattern>
     <template>
       Computer Science students at RPI are required to take the following courses
-      <ul>
+      <ol>
         <li>Computer Science 1</li>
         <li>Data Structures</li>
         <li>Foundations of Computer Science</li>
@@ -15,7 +15,13 @@
         <li>Principles of Software</li>
         <li>Operating Systems</li>
         <li>Programming Languages</li>
-      </ul>
+      </ol>
+      Learn more about any course by saying explain requirement <br></br>[course name OR course number in list]<br></br>
+      Examples:
+        <ul>
+            <li>explain requirement 1</li>
+            <li>explain requirement computer science 1</li>
+        </ul>
     </template>
   </category>
 
@@ -23,7 +29,7 @@
     <pattern># REQUIREMENTS #</pattern>
     <template>
       Computer Science students at RPI are required to take the following courses
-      <ul>
+      <ol>
         <li>Computer Science 1</li>
         <li>Data Structures</li>
         <li>Foundations of Computer Science</li>
@@ -32,7 +38,13 @@
         <li>Principles of Software</li>
         <li>Operating Systems</li>
         <li>Programming Languages</li>
-      </ul>
+      </ol>
+      Learn more about any course by saying explain requirement <br></br>[course name OR course number in list]<br></br>
+      Examples:
+        <ul>
+            <li>explain requirement 1</li>
+            <li>explain requirement computer science 1</li>
+        </ul>
     </template>
   </category>
   
@@ -40,7 +52,7 @@
     <pattern># REQUIRED COURSES #</pattern>
     <template>
       Computer Science students at RPI are required to take the following courses
-      <ul>
+      <ol>
         <li>Computer Science 1</li>
         <li>Data Structures</li>
         <li>Foundations of Computer Science</li>
@@ -49,7 +61,13 @@
         <li>Principles of Software</li>
         <li>Operating Systems</li>
         <li>Programming Languages</li>
-      </ul>
+      </ol>
+      Learn more about any course by saying explain requirement <br></br>[course name OR course number in list]<br></br>
+      Examples:
+        <ul>
+            <li>explain requirement 1</li>
+            <li>explain requirement computer science 1</li>
+        </ul>
     </template>
   </category>
 
@@ -57,7 +75,7 @@
     <pattern># REQUIRED CS COURSES #</pattern>
     <template>
       Computer Science students at RPI are required to take the following courses
-      <ul>
+      <ol>
         <li>Computer Science 1</li>
         <li>Data Structures</li>
         <li>Foundations of Computer Science</li>
@@ -66,7 +84,13 @@
         <li>Principles of Software</li>
         <li>Operating Systems</li>
         <li>Programming Languages</li>
-      </ul>
+      </ol>
+      Learn more about any course by saying explain requirement <br></br>[course name OR course number in list]<br></br>
+      Examples:
+        <ul>
+            <li>explain requirement 1</li>
+            <li>explain requirement computer science 1</li>
+        </ul>
     </template>
   </category>
 
@@ -74,7 +98,7 @@
     <pattern># REQUIRED COMPUTER SCIENCE COURSES #</pattern>
     <template>
       Computer Science students at RPI are required to take the following courses
-      <ul>
+      <ol>
         <li>Computer Science 1</li>
         <li>Data Structures</li>
         <li>Foundations of Computer Science</li>
@@ -83,7 +107,13 @@
         <li>Principles of Software</li>
         <li>Operating Systems</li>
         <li>Programming Languages</li>
-      </ul>
+      </ol>
+      Learn more about any course by saying explain requirement <br></br>[course name OR course number in list]<br></br>
+      Examples:
+        <ul>
+            <li>explain requirement 1</li>
+            <li>explain requirement computer science 1</li>
+        </ul>
     </template>
   </category>
 
@@ -91,7 +121,7 @@
     <pattern># REQUIRED COMPUTER SCIENCE #</pattern>
     <template>
       Computer Science students at RPI are required to take the following courses
-      <ul>
+      <ol>
         <li>Computer Science 1</li>
         <li>Data Structures</li>
         <li>Foundations of Computer Science</li>
@@ -100,7 +130,332 @@
         <li>Principles of Software</li>
         <li>Operating Systems</li>
         <li>Programming Languages</li>
-      </ul>
+      </ol>
+      Learn more about any course by saying explain requirement <br></br>[course name OR course number in list]<br></br>
+      Examples:
+        <ul>
+            <li>explain requirement 1</li>
+            <li>explain requirement computer science 1</li>
+        </ul>
     </template>
   </category>
+
+  <!-- Explanations by requirement numbers -->
+  <category>
+    <pattern># EXPLAIN REQUIREMENT REQUIREMENT 1 #</pattern>
+    <template>
+      An introduction to computer programming algorithm design and
+      analysis. Additional topics include basic computer organization;
+      internal representation of scalar and array data; use of
+      top-down design and subprograms to tackle complex problems;
+      abstract data types. Enrichment material as time allows.
+      Interdisciplinary case studies, numerical and nonnumerical
+      applications. Students who have passed CSCI 1200 cannot
+      register for this course.
+
+      When Offered: Fall, spring, and summer terms annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <category>
+    <pattern># EXPLAIN REQUIREMENT REQUIREMENT 2 #</pattern>
+    <template>
+      Programming concepts: functions, parameter passing, pointers,
+      arrays, strings, structs, classes, templates. Mathematical
+      tools: sets, functions, and relations, order notation,
+      complexity of algorithms, proof by induction. Data structures
+      and their representations: data abstraction and internal
+      representation, sequences, trees, binary search trees,
+      associative structures. Algorithms: searching and sorting,
+      generic algorithms, iterative and recursive algorithms.
+      Methods of testing correctness and measuring performance.
+
+      Prerequisites/Corequisites: Prerequisite: CSCI 1100 or permission of instructor.
+
+      When Offered: Fall and spring terms annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <category>
+    <pattern># EXPLAIN REQUIREMENT REQUIREMENT 3 #</pattern>
+    <template>
+      This course introduces important mathematical and theoretical
+      tools for computer science, including topics from set theory,
+      combinatorics, and probability theory, and then proceeds to
+      automata theory, the Turing Machine model of computation,
+      and notions of computational complexity. The course will
+      emphasize formal reasoning and proof techniques.
+
+      Prerequisites/Corequisites: Prerequisites: CSCI 1200 and Introduction to Calculus (MATH 1010 or MATH 1500 or MATH 1020 or MATH 2010); MATH 1020 is strongly recommended.
+
+      When Offered: Fall and spring terms annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <category>
+    <pattern># EXPLAIN REQUIREMENT REQUIREMENT 4 #</pattern>
+    <template>
+      Introduction to computer organization, assembler language,
+      and operating systems. Computer systems organization: processors,
+      memory, I/O. Digital logic: gates, Boolean algebra, digital logic
+      circuits, memory, buses. Microprogramming. Machine level: instruction
+      formats, addressing modes, instruction types, flow of control.
+      Operating systems: virtual memory, virtual I/O instructions, processes,
+      interprocess communication. Numeric representation. Assembler language:
+      the assembly process, macros, linking, loading. Advanced architectures:
+      RISC architectures, parallel architectures.
+
+      Prerequisites/Corequisites: Prerequisite: CSCI 1200.
+
+      When Offered: Fall and spring terms annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <category>
+    <pattern># EXPLAIN REQUIREMENT REQUIREMENT 5 #</pattern>
+    <template>
+      Data structures and algorithms, and the mathematical techniques
+      necessary to design and analyze them. Basic data structures:
+      lists, associative structures, trees. Mathematical techniques
+      for designing algorithms and analyzing worst-case and expected-case
+      algorithm efficiency. Advanced data structures: balanced trees,
+      tries, heaps, priority queues, graphs. Searching, sorting.
+      Algorithm design techniques: dynamic programming, greedy algorithms,
+      divide-and-conquer, backtracking. Example graph, string, geometric,
+      and numeric algorithms.
+
+      Prerequisites/Corequisites: Prerequisites: CSCI 1200, CSCI 2200,
+      and Introduction to Calculus (MATH 1010 or MATH 1500 or MATH 1020 or MATH 2010).
+
+      When Offered: Fall and spring terms annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <category>
+    <pattern># EXPLAIN REQUIREMENT REQUIREMENT 6 #</pattern>
+    <template>
+      A study of important concepts in software design, implementation,
+      and testing. Topics include specification, abstraction with classes,
+      design principles and patterns, testing, refactoring, the software
+      development process, GUI and event-driven programming, and cloud-based
+      programming. The course also introduces implementation and testing tools,
+      including IDEs, revision control systems, and other frameworks.
+      The overarching goal of the course is for students to learn how to
+      write correct and maintainable software.
+
+      Prerequisites/Corequisites: Prerequisites: CSCI 1200 and CSCI 2200.
+
+      When Offered: Spring and summer terms annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <category>
+    <pattern># EXPLAIN REQUIREMENT REQUIREMENT 7 #</pattern>
+    <template>
+      Discussion of various aspects of computer operating systems design
+      and implementation. Topics include I/O programming,
+      concurrent processes and synchronization problems,
+      process management and scheduling of processes,
+      virtual memory management, device management, file systems,
+      deadlock problems, system calls, and interprocess communication.
+      Programming projects are required.
+
+      Prerequisites/Corequisites: Prerequisites: CSCI 2300 and either CSCI 2500 or ECSE 2660.
+
+      When Offered: Spring and summer terms annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <category>
+    <pattern># EXPLAIN REQUIREMENT REQUIREMENT 8 #</pattern>
+    <template>
+      This course is a study of the important concepts found in current
+      programming languages. Topics include language processing
+      (lexical analysis, parsing, type-checking, interpretation and compilation,
+      run-time environment), the role of abstraction
+      (data abstraction and control abstraction), programming paradigms
+      (procedural, functional, object-oriented, logic-oriented, generic),
+      and formal language definition.
+
+      Prerequisites/Corequisites: Prerequisite: CSCI 2300 and CSCI 2600.
+
+      When Offered: Fall term annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <!-- Explanations by Course Names -->
+  <category>
+    <pattern># EXPLAIN REQUIREMENT COMPUTER SCIENCE 1 #</pattern>
+    <template>
+      An introduction to computer programming algorithm design and
+      analysis. Additional topics include basic computer organization;
+      internal representation of scalar and array data; use of
+      top-down design and subprograms to tackle complex problems;
+      abstract data types. Enrichment material as time allows.
+      Interdisciplinary case studies, numerical and nonnumerical
+      applications. Students who have passed CSCI 1200 cannot
+      register for this course.
+
+      When Offered: Fall, spring, and summer terms annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <category>
+    <pattern># EXPLAIN REQUIREMENT DATA STRUCTURES #</pattern>
+    <template>
+      Programming concepts: functions, parameter passing, pointers,
+      arrays, strings, structs, classes, templates. Mathematical
+      tools: sets, functions, and relations, order notation,
+      complexity of algorithms, proof by induction. Data structures
+      and their representations: data abstraction and internal
+      representation, sequences, trees, binary search trees,
+      associative structures. Algorithms: searching and sorting,
+      generic algorithms, iterative and recursive algorithms.
+      Methods of testing correctness and measuring performance.
+
+      Prerequisites/Corequisites: Prerequisite: CSCI 1100 or permission of instructor.
+
+      When Offered: Fall and spring terms annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <category>
+    <pattern># EXPLAIN REQUIREMENT FOUNDATIONS OF COMPUTER SCIENCE #</pattern>
+    <template>
+      This course introduces important mathematical and theoretical
+      tools for computer science, including topics from set theory,
+      combinatorics, and probability theory, and then proceeds to
+      automata theory, the Turing Machine model of computation,
+      and notions of computational complexity. The course will
+      emphasize formal reasoning and proof techniques.
+
+      Prerequisites/Corequisites: Prerequisites: CSCI 1200 and Introduction to Calculus (MATH 1010 or MATH 1500 or MATH 1020 or MATH 2010); MATH 1020 is strongly recommended.
+
+      When Offered: Fall and spring terms annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <category>
+    <pattern># EXPLAIN REQUIREMENT COMPUTER ORGANIZATION #</pattern>
+    <template>
+      Introduction to computer organization, assembler language,
+      and operating systems. Computer systems organization: processors,
+      memory, I/O. Digital logic: gates, Boolean algebra, digital logic
+      circuits, memory, buses. Microprogramming. Machine level: instruction
+      formats, addressing modes, instruction types, flow of control.
+      Operating systems: virtual memory, virtual I/O instructions, processes,
+      interprocess communication. Numeric representation. Assembler language:
+      the assembly process, macros, linking, loading. Advanced architectures:
+      RISC architectures, parallel architectures.
+
+      Prerequisites/Corequisites: Prerequisite: CSCI 1200.
+
+      When Offered: Fall and spring terms annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <category>
+    <pattern># EXPLAIN REQUIREMENT INTRODUCTION TO ALGORITHMS #</pattern>
+    <template>
+      Data structures and algorithms, and the mathematical techniques
+      necessary to design and analyze them. Basic data structures:
+      lists, associative structures, trees. Mathematical techniques
+      for designing algorithms and analyzing worst-case and expected-case
+      algorithm efficiency. Advanced data structures: balanced trees,
+      tries, heaps, priority queues, graphs. Searching, sorting.
+      Algorithm design techniques: dynamic programming, greedy algorithms,
+      divide-and-conquer, backtracking. Example graph, string, geometric,
+      and numeric algorithms.
+
+      Prerequisites/Corequisites: Prerequisites: CSCI 1200, CSCI 2200,
+      and Introduction to Calculus (MATH 1010 or MATH 1500 or MATH 1020 or MATH 2010).
+
+      When Offered: Fall and spring terms annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <category>
+    <pattern># EXPLAIN REQUIREMENT PRINCIPLES OF SOFTWARE #</pattern>
+    <template>
+      A study of important concepts in software design, implementation,
+      and testing. Topics include specification, abstraction with classes,
+      design principles and patterns, testing, refactoring, the software
+      development process, GUI and event-driven programming, and cloud-based
+      programming. The course also introduces implementation and testing tools,
+      including IDEs, revision control systems, and other frameworks.
+      The overarching goal of the course is for students to learn how to
+      write correct and maintainable software.
+
+      Prerequisites/Corequisites: Prerequisites: CSCI 1200 and CSCI 2200.
+
+      When Offered: Spring and summer terms annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <category>
+    <pattern># EXPLAIN REQUIREMENT OPERATING SYSTEMS #</pattern>
+    <template>
+      Discussion of various aspects of computer operating systems design
+      and implementation. Topics include I/O programming,
+      concurrent processes and synchronization problems,
+      process management and scheduling of processes,
+      virtual memory management, device management, file systems,
+      deadlock problems, system calls, and interprocess communication.
+      Programming projects are required.
+
+      Prerequisites/Corequisites: Prerequisites: CSCI 2300 and either CSCI 2500 or ECSE 2660.
+
+      When Offered: Spring and summer terms annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
+  <category>
+    <pattern># EXPLAIN REQUIREMENT PROGRAMMING LANGUAGES #</pattern>
+    <template>
+      This course is a study of the important concepts found in current
+      programming languages. Topics include language processing
+      (lexical analysis, parsing, type-checking, interpretation and compilation,
+      run-time environment), the role of abstraction
+      (data abstraction and control abstraction), programming paradigms
+      (procedural, functional, object-oriented, logic-oriented, generic),
+      and formal language definition.
+
+      Prerequisites/Corequisites: Prerequisite: CSCI 2300 and CSCI 2600.
+
+      When Offered: Fall term annually.
+
+      Credit Hours: 4
+    </template>
+  </category>
+
 </aiml>
