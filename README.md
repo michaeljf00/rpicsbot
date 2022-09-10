@@ -21,7 +21,7 @@ Features:
   - Keywords: description, summary, overview
 - Alternate Descriptions
   - The user can get more info on required computer science courses but querying for info on the course name or its number within a list. The number is an alternate description for the referent object, the required computer science course. [NEW, 9/10/22]
-- Acknowledgements & continuers
-  - Ground a question with an answer, forming an adjancency pair. If the user asks some form of a question, prefix the answer with "Yes, " if there's an available answer. Otherwise, prefix it with "No, ". [NEW, 9/10/22]
+- Acknowledgements & Continuers
+  - Ground a question with an answer, forming an adjancency pair. If the user asks some form of a question, prefix the answer with "Yes, " if there's an available answer. Otherwise, prefix it with "No, ". Both prefixes are known as continuers and serve to continue a conversation. [NEW, 9/10/22]
 
 Bot Name in Pandora's Sandbox: rpicsbot
